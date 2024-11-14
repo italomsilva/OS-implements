@@ -1,7 +1,7 @@
 require '../stdlib'
 
-if file_exists('usuarios.yaml')
-  tableUsers = readlines "usuarios.yaml"
+if file_exists('../database/users.yaml')
+  tableUsers = readlines '../database/users.yaml'
 else
   tableUsers = []
 
