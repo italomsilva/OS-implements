@@ -1,7 +1,7 @@
 require '../stdlib'
 
-if file_exists('../database/users.yaml')
-  tableUsers = readlines '../database/users.yaml'
+if file_exists('../database/contas.yaml')
+  tableUsers = readlines '../database/contas.yaml'
 else
   tableUsers = ['']
 
@@ -18,7 +18,7 @@ usuarioExiste = false
 if usersCount == 1 
   hashPass = hash_sha256(newPassword)
   tableUsers.add '{ '+newUser+','+hashPass+' }'
-  writelines '../database/users.yaml', tableUsers
+  writelines '../database/contas.yaml', tableUsers
   print 'Novo usuário cadastrado com sucesso!'
 else
 
@@ -35,6 +35,6 @@ else
   if !usuarioExiste
     hashPass = hash_sha256(newPassword)
     tableUsers.add '{ '+newUser+','+hashPass+' }'
-    writelines '../database/users.yaml', tableUsers
+    writelines '../database/contas.yaml', tableUsers
     play_sound('./ps.mp3')
     print 'Novo usuário cadastrado com sucesso!'
