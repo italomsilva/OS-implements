@@ -1,0 +1,79 @@
+- arquivo: music1.mp3
+  usuario: ana
+  tamanho: 3
+
+- arquivo: documento1.txt
+  usuario: aloit
+  tamanho: 0.5
+
+- arquivo: video2.mp4
+  usuario: italo
+  tamanho: 70
+
+- arquivo: planilha1.xlsx
+  usuario: aloit
+  tamanho: 1.2
+
+- arquivo: doc_relatório.pdf
+  usuario: ana
+  tamanho: 2
+
+- arquivo: app_installer.exe
+  usuario: italo
+  tamanho: 150
+
+- arquivo: foto1.jpg
+  usuario: aloit
+  tamanho: 4.5
+
+- arquivo: music2.mp3
+  usuario: ana
+  tamanho: 4
+
+- arquivo: design.psd
+  usuario: italo
+  tamanho: 30
+
+- arquivo: projeto1.zip
+  usuario: aloit
+  tamanho: 12
+
+- arquivo: script.js
+  usuario: ana
+  tamanho: 0.015
+
+- arquivo: db_backup.sql
+  usuario: italo
+  tamanho: 200
+
+- arquivo: video1.mp4
+  usuario: aloit
+  tamanho: 50
+
+- arquivo: livro.pdf
+  usuario: ana
+  tamanho: 8
+
+- arquivo: apresentação.ppt
+  usuario: italo
+  tamanho: 5
+
+- arquivo: foto2.jpg
+  usuario: ana
+  tamanho: 1.5
+
+- arquivo: readme.md
+  usuario: italo
+  tamanho: 0.008
+
+- arquivo: assets.zip
+  usuario: ana
+  tamanho: 100
+
+- arquivo: análise.csv
+  usuario: italo
+  tamanho: 1.8
+
+- arquivo: video_tutorial.mp4
+  usuario: ana
+  tamanho: 120
