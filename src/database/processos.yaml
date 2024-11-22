@@ -1,0 +1,60 @@
+- pid: 1001
+  name: "Database Server"
+  state: "running"
+  io_bound: true
+  uid: 0085
+  affinity: [0, 1]
+- pid: 1002
+  name: "Web Server"
+  state: "ready"
+  io_bound: false
+  uid: 0098
+  affinity: [2, 3]
+- pid: 1003
+  name: "File Manager"
+  state: "blocked"
+  io_bound: true
+  uid: 0034
+  affinity: [1]
+- pid: 1004
+  name: "Cache Handler"
+  state: "running"
+  io_bound: false
+  uid: 0085
+  affinity: [3]
+- pid: 1005
+  name: "Scheduler"
+  state: "ready"
+  io_bound: true
+  uid: 0098
+  affinity: [0]
+- pid: 1006
+  name: "Backup Service"
+  state: "running"
+  io_bound: false
+  uid: 0034
+  affinity: [2, 3]
+- pid: 1007
+  name: "Network Listener"
+  state: "blocked"
+  io_bound: true
+  uid: 0085
+  affinity: [1]
+- pid: 1008
+  name: "Load Balancer"
+  state: "ready"
+  io_bound: false
+  uid: 0098
+  affinity: [0, 1]
+- pid: 1009
+  name: "Log Monitor"
+  state: "running"
+  io_bound: true
+  uid: 0034
+  affinity: [2]
+- pid: 1010
+  name: "Message Queue"
+  state: "blocked"
+  io_bound: false
+  uid: 0085
+  affinity: [3]
