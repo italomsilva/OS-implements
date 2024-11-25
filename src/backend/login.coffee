@@ -22,8 +22,10 @@ if file_exists('../database/contas.yaml')
         break
     if login == true
       print 'Bem Vindo '+userInput
+      play_sound('../sounds/bemVindo.mp3')
     else
       print 'Usuário ou senha inválida'
+      play_sound('../sounds/login.mp3')
 else
   print 'Sem usuários cadastrados'
 

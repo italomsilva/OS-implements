@@ -36,5 +36,4 @@ else
     hashPass = hash_sha256(newPassword)
     tableUsers.add '{ '+newUser+','+hashPass+' }'
     writelines '../database/contas.yaml', tableUsers
-    play_sound('./ps.mp3')
     print 'Novo usuário cadastrado com sucesso!'
