@@ -1,9 +1,9 @@
 - arquivo: music1.mp3
-  usuario: ana
+  usuario: angelo
   tamanho: 3
 
 - arquivo: documento1.txt
-  usuario: aloit
+  usuario: guilherme
   tamanho: 0.5
 
 - arquivo: video2.mp4
@@ -11,11 +11,11 @@
   tamanho: 70
 
 - arquivo: planilha1.xlsx
-  usuario: aloit
+  usuario: guilherme
   tamanho: 1.2
 
 - arquivo: doc_relatório.pdf
-  usuario: ana
+  usuario: angelo
   tamanho: 2
 
 - arquivo: app_installer.exe
@@ -23,11 +23,11 @@
   tamanho: 150
 
 - arquivo: foto1.jpg
-  usuario: aloit
+  usuario: guilherme
   tamanho: 4.5
 
 - arquivo: music2.mp3
-  usuario: ana
+  usuario: angelo
   tamanho: 4
 
 - arquivo: design.psd
@@ -35,11 +35,11 @@
   tamanho: 30
 
 - arquivo: projeto1.zip
-  usuario: aloit
+  usuario: guilherme
   tamanho: 12
 
 - arquivo: script.js
-  usuario: ana
+  usuario: angelo
   tamanho: 0.015
 
 - arquivo: db_backup.sql
@@ -47,11 +47,11 @@
   tamanho: 200
 
 - arquivo: video1.mp4
-  usuario: aloit
+  usuario: guilherme
   tamanho: 50
 
 - arquivo: livro.pdf
-  usuario: ana
+  usuario: angelo
   tamanho: 8
 
 - arquivo: apresentação.ppt
@@ -59,7 +59,7 @@
   tamanho: 5
 
 - arquivo: foto2.jpg
-  usuario: ana
+  usuario: angelo
   tamanho: 1.5
 
 - arquivo: readme.md
@@ -67,7 +67,7 @@
   tamanho: 0.008
 
 - arquivo: assets.zip
-  usuario: ana
+  usuario: angelo
   tamanho: 100
 
 - arquivo: análise.csv
@@ -75,5 +75,5 @@
   tamanho: 1.8
 
 - arquivo: video_tutorial.mp4
-  usuario: ana
+  usuario: angelo
   tamanho: 120
